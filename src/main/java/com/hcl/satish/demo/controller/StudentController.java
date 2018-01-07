@@ -50,4 +50,9 @@ public class StudentController {
 		model.addAttribute("name", name);
 		return "hello";
 	}
+	
+	@RequestMapping("test/hai")
+	public String hellodd() {
+		return "hello";
+	}
 }
